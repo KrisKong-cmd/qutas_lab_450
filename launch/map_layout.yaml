@@ -4,16 +4,16 @@ map:
   resolution: 0.1
   boarder: true
 
-obstacles:
-  rand:
-    size: 3
-    divisor: 6
-  #obs_0:
-  #  type: "square"
-  #  size: 3
-  #  position:
-  #    x: 15
-  #    y: 15
+#obstacles:
+#  rand:
+#    size: 3
+#    divisor: 6
+  obs_0:
+    type: "square"
+    size: 5
+    position:
+      x: 35
+      y: 35
   #obs_1:
   #  type: "circle"
   #  size: 5

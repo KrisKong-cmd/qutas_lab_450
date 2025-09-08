@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="server" default="131.181.135.150"/>
+  <arg name="server" default="10.68.42.85"/>
   <arg name="vrpn_object_name" default="uav"/>
 
   <node pkg="vrpn_client_ros" type="vrpn_client_node" name="vrpn_client_node" output="screen">
