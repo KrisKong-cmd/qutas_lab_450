@@ -21,7 +21,7 @@ OPERATING_ANGLE_RANGE = 180  # degrees
 
 # Global variable to track current servo position
 current_angle = 90.0  # Start at center position
-DEFAULT_SPEED = 30  # degrees per second (adjustable)
+DEFAULT_SPEED = 120  # degrees per second (adjustable)
 
 def get_current_pulse_width():
     """Get the current pulse width based on current angle."""

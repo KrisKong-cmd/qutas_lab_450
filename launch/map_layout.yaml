@@ -1,22 +1,36 @@
+#map:
+#  width: 80
+#  height: 80
+#  resolution: 0.1
+#  boarder: true
+
+#obstacles:
+#  rand:
+#    size: 3
+#    divisor: 6
+#  obs_0:
+#    type: "square"
+#    size: 5
+#    position:
+#      x: 35
+#      y: 25
+#  obs_1:
+#    type: "circle"
+#    size: 5
+#    position:
+#      x: 60
+#      y: 35
+
 map:
   width: 80
   height: 80
   resolution: 0.1
   boarder: true
 
-#obstacles:
-#  rand:
-#    size: 3
-#    divisor: 6
+obstacles:
   obs_0:
     type: "square"
     size: 5
     position:
       x: 35
-      y: 35
-  #obs_1:
-  #  type: "circle"
-  #  size: 5
-  #  position:
-  #    x: 40
-  #    y: 30
+      y: 25
